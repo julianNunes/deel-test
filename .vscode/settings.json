@@ -1,0 +1,12 @@
+{
+    "docker.commands.attach": "${containerCommand} exec -it ${containerId} ${shellCommand}",
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit"
+    },      
+    "workbench.colorTheme": "Dracula Soft",
+    "explorer.confirmDelete": true,    
+}
